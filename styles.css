@@ -1,0 +1,35 @@
+/* Overall centering of the form on the page */
+body {
+    display: flex;
+    justify-content: center; /* Horizontally centers the form */
+    align-items: center; /* Vertically centers the form */
+    min-height: 100vh; /* Ensures the body takes up the full viewport height */
+    margin: 0; /* Removes default body margin */
+}
+
+/* Styling for the form container */
+form {
+    display: flex;
+    flex-direction: column; /* Stacks the form's children vertically */
+    align-items: center; /* Centers the children (input & button) horizontally */
+}
+
+/* Styling for the search input field */
+input[type="text"] {
+    padding: 12px 20px; /* Adjusts the size of the input box */
+    font-size: 16px; /* Sets the font size inside the input */
+    border: 1px solid #ccc;
+    border-radius: 50px; /* Makes the corners fully rounded */
+    outline: none; /* Removes the border outline on focus */
+    width: 300px; /* Optional: Sets a specific width for the input field */
+    margin-bottom: 10px; /* Adds space between the input field and the button */
+}
+
+/* Styling for the search button */
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px; /* Slightly rounded corners for the button */
+    cursor: pointer;
+}
