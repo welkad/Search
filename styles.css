@@ -21,7 +21,7 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 50px; /* Makes the corners fully rounded */
     outline: none; /* Removes the border outline on focus */
-    width: 300px; /* Optional: Sets a specific width for the input field */
+    width: 450px; /* Optional: Sets a specific width for the input field */
     margin-bottom: 10px; /* Adds space between the input field and the button */
 }
 
