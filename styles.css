@@ -1,14 +1,32 @@
-/* Overall centering of the body content */
 body {
     display: flex;
-    justify-content: center; /* Horizontally centers the form */
-    align-items: center; /* Vertically centers the form */
     flex-direction: column;
-    min-height: 100vh; /* Ensures the body takes up the full viewport height */
-    margin: 0; /* Removes default body margin */
+    min-height: 100vh;
+    margin: 0;
 }
 
-/* Styling for the search input field */
+header {
+    text-align: right;
+    padding: 20px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.content-wrapper {
+    flex: 1 0 auto;
+}
+
 .search-input {
     padding: 12px 20px; /* Adjusts the size of the input box */
     font-size: 16px; /* Sets the font size inside the input */
@@ -42,7 +60,6 @@ body {
     /* background: #f8f9fa; /* match Google style */
 }
 
-/* Styling for the search and lucky buttons */
 input[type="submit"] {
     padding: 10px 20px;
     font-size: 16px;
