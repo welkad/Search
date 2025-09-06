@@ -25,11 +25,18 @@ input[type="text"] {
     margin-bottom: 10px; /* Adds space between the input field and the button */
 }
 
-/* Styling for the search button */
+/* Styling for the search and lucky buttons */
 input[type="submit"] {
     padding: 10px 20px;
     font-size: 16px;
-    border: none;
-    border-radius: 4px; /* Slightly rounded corners for the button */
+    border: none;  
+    border-radius: 5px; /* Slightly rounded corners for the buttons */
     cursor: pointer;
+    margin: 0 5px;
+}
+
+.submit-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
