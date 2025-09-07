@@ -26,6 +26,14 @@ footer {
     padding-bottom: 20px;
 }
 
+.adv-hint {
+    position: absolute;
+    right: 100%;   
+    top: .75rem; /* Horizontal position */
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
 .content-container {
     display: flex;
     flex-direction: column;
@@ -33,11 +41,34 @@ footer {
     margin-top: 25vh;  /* Adjust where top of content starts */
 }
 
+.content-container p {
+    text-align: left;
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+.input-center-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* This vertically aligns the paragraph and the input field */
+    gap: 10px; /* This adds a small gap between the text and the input field */
+}
+
 .logo-container, .search-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .logo-container img {

@@ -11,16 +11,19 @@
             <a href="../index.html">Google Search</a>
             <a href="./img_search.html">Image Search</a>
         </header>
-        <main>
-            <div class="content-container">
+        <main>            
+            <div class="content-container">                
                 <div class="logo-container">
                     <img src="../assets/google_logo.png" alt="Google Logo" width="500" height="145">
                     <img src="../assets/adv_logo.png" alt="Advanced Logo" width="290" height="65">
-                </div>
+                </div>                
                 <form action="https://www.google.com/search" method="GET" class="search-form">
-                    <div class="search-container">
-                        <input type="text" name="as_q">
-                        <img src="../assets/magnifying-glass-icon.svg" alt="Search Icon" class="search-icon">
+                    <div class="input-center-wrapper">
+                        <span class="adv-hint">To find pages with:</span>
+                        <div class="search-container">                        
+                            <input type="text" name="as_q" placeholder="All of these words...">
+                            <img src="../assets/magnifying-glass-icon.svg" alt="Search Icon" class="search-icon">
+                        </div>
                     </div>
                     <div class="button-row">
                         <button type="submit" id="adv-search-button">Advanced Search</button>
