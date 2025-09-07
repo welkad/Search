@@ -11,14 +11,13 @@ header {
 }
 
 header a {
-    margin-right: 10px;  /* Controls gap between links */
+    margin-right: 10px;  /* Control gap between links */
 }
 
 main {
     flex: 1;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;    
     align-items: center;
 }
 
@@ -27,7 +26,14 @@ footer {
     padding-bottom: 20px;
 }
 
-.content-container, .logo-container, .search-form {
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;  /* Adjust where top of content starts */
+}
+
+.logo-container, .search-form {
     display: flex;
     flex-direction: column;
     align-items: center;
