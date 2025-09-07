@@ -102,3 +102,10 @@ input[type="submit"] {
 input[type="submit"]:hover {
   outline: 1px solid #ccc;
 }
+
+#adv-search-button {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
