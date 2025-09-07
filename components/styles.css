@@ -31,6 +31,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .logo-container img {
@@ -44,14 +45,32 @@ footer {
     margin-bottom: 10px;
 }
 
-.search-input {
-    padding: 12px 20px;
+.search-container {
+    position: relative;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 12px 20px 12px 45px; /* Extra padding on left for search icon */
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 50px;
     outline: none;
-    width: 450px;
     margin-bottom: 10px;
+}
+
+.search-container .search-icon {
+    position: absolute; /* Position icon based on parent container */
+    left: 15px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-65%); /* Center the icon vertically */
+    width: 20px;
+    height: 20px;
+    opacity: 40%;
 }
 
 .button-row {
