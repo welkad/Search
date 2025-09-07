@@ -28,7 +28,7 @@ footer {
 
 .adv-hint {
     position: absolute;
-    right: 100%;   
+    right: 98%;
     top: .75rem; /* Horizontal position */
     font-size: 1.2rem;
     white-space: nowrap;
@@ -36,10 +36,14 @@ footer {
 
 .adv-example {
     position: absolute;
-    left: 100%;   
+    left: 98%;
     top: .75rem; /* Horizontal position */
     font-size: 1.1rem;
     white-space: nowrap;
+}
+
+.advanced-search-page .content-container {
+    margin-top: 19vh;
 }
 
 .content-container {
@@ -83,6 +87,19 @@ footer {
     position: static;
     margin: 0;
     display: block;
+}
+
+.advanced-search-page .logo-container {
+    flex-direction: column;
+}
+
+.advanced-search-page .logo-container img:first-child {
+    align-self: flex-start;
+    margin-bottom: -2px;
+}
+
+.advanced-search-page .logo-container img:last-child {
+    align-self:flex-end;
 }
 
 .logo-container img:last-child {
@@ -147,4 +164,8 @@ input[type="submit"]:hover {
     background-color: #4d90fe;
     border: 1px solid #3079ed;
     color: #fff;
+}
+
+#adv-search-button:hover {
+    background-color: #4787ed;
 }
