@@ -29,36 +29,31 @@ footer {
     align-items: center;
 }
 
-.content-wrapper {
-    flex: 1 0 auto;
-}
-
 .logo-container {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.log-container img {
-    position: static; /* Ensure both images are in normal flow */
+.logo-container img {
+    position: static;
     margin: 0;
     display: block;
 }
 
 .logo-container img:last-child {
     margin-top: -10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .search-input {
-    padding: 12px 20px; /* Adjusts the size of the input box */
-    font-size: 16px; /* Sets the font size inside the input */
+    padding: 12px 20px;
+    font-size: 16px;
     border: 1px solid #ccc;
-    border-radius: 50px; /* Makes the corners fully rounded */
-    outline: none; /* Removes the border outline on focus */
-    width: 450px; /* Optional: Sets a specific width for the input field */
-    margin-bottom: 10px; /* Adds space between the input field and the button */
+    border-radius: 50px;
+    outline: none;
+    width: 450px;
+    margin-bottom: 10px;
 }
 
 .search-form {
@@ -69,27 +64,18 @@ footer {
 
 .button-row {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     margin-top: 10px;
-    gap: 10px; /* Add space between the buttons */
+    gap: 10px;
 }
 
-.button-row button {
+.button-row button,
+input[type="submit"] {
     padding: 10px 20px;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin: 0 5px;
-    /* background: #f8f9fa; match Google style */
-}
-
-input[type="submit"] {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;  
-    border-radius: 5px; /* Slightly rounded corners for the buttons */
-    cursor: pointer;
-    margin: 0 5px;
-    /* background: #f8f9fa; match Google style */
+    /* background: #f8f9fa; */
 }
