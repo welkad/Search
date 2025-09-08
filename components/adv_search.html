@@ -17,39 +17,44 @@
                     <img src="../assets/adv_logo.png" alt="Advanced Logo" width="290" height="65">
                     <img src="../assets/google_logo.png" alt="Google Logo" width="500" height="145">
                     <img src="../assets/search_logo.png" alt="Search Logo" width="255" height="65">
-                </div>                
+                </div>
+                <div class="input-center-wrapper">
+                    <span class="adv-hint"><strong><u>To find pages with...</u></strong></span>
+                    <div class="search-container empty-spacer"></div>
+                    <span class="adv-example"><strong><u>Do this in the search box</u></strong></span>
+                </div>
                 <form action="https://www.google.com/search" method="GET" class="search-form" target="_blank">
                     <div class="input-center-wrapper">
-                        <span class="adv-hint">To find pages with:</span>
+                        <span class="adv-hint">All of these words:</span>
                         <div class="search-container">                        
-                            <input type="text" name="as_q" placeholder="All of these words...">
+                            <input type="text" name="as_q" placeholder="e.g. tricolor rat terrier ...">
                             <img src="../assets/magnifying-glass-icon.svg" alt="Search Icon" class="search-icon">
                         </div>
-                        <span class="adv-example">Type all of the <b>important</b> words: &lt; tricolor rat terrier &gt;</span>
+                        <span class="adv-example">Type all of the <b>important</b> words.</span>
                     </div>
                     <div class="input-center-wrapper">
-                        <span class="adv-hint">To find pages with:</span>
+                        <span class="adv-hint">This exact word or phrase:</span>
                         <div class="search-container">                        
-                            <input type="text" name="as_epq" placeholder="This exact word or phrase...">
+                            <input type="text" name="as_epq" placeholder="e.g. &quot;rat terrier&quot;">
                             <img src="../assets/magnifying-glass-icon.svg" alt="Search Icon" class="search-icon">
                         </div>
-                        <span class="adv-example">Put the exact words in <b>quotes</b>: &lt; "rat terrier" &gt;</span>
+                        <span class="adv-example">Put the exact words in <b>quotes</b>.</span>
                     </div>
                     <div class="input-center-wrapper">
-                        <span class="adv-hint">To find pages with:</span>
+                        <span class="adv-hint">Any of these words:</span>
                         <div class="search-container">                        
-                            <input type="text" name="as_oq" placeholder="Any of these words...">
+                            <input type="text" name="as_oq" placeholder="e.g. miniature OR standard ...">
                             <img src="../assets/magnifying-glass-icon.svg" alt="Search Icon" class="search-icon">
                         </div>
-                        <span class="adv-example">Type <b>OR</b> between all of the words you want: &lt; miniature OR standard &gt;</span>
+                        <span class="adv-example">Type <b>OR</b> between all of the words you want.</span>
                     </div>
                     <div class="input-center-wrapper">
-                        <span class="adv-hint">To find pages with:</span>
+                        <span class="adv-hint">None of these words:</span>
                         <div class="search-container">                        
-                            <input type="text" name="as_eq" placeholder="None of these words...">
+                            <input type="text" name="as_eq" placeholder="e.g. -rodent, -&quot;Jack Russell&quot;">
                             <img src="../assets/magnifying-glass-icon.svg" alt="Search Icon" class="search-icon">
                         </div>
-                        <span class="adv-example">Put a <b>minus sign</b> in front  of the words you don't want: &lt; -rodent, -"Jack Russell" &gt;</span>
+                        <span class="adv-example">Put a <b>minus sign</b> in front  of the words you don't want.</span>
                     </div>
                     <div class="button-row">
                         <button type="submit" id="adv-search-button">Advanced Search</button>

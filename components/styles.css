@@ -102,6 +102,12 @@ footer {
     align-self:flex-end;
 }
 
+.empty-spacer {
+    height: 3vh; /* Adjust as needed */
+    width: 450px;
+    visibility: hidden;
+}
+
 .logo-container img:last-child {
     margin-top: -10px;
     margin-bottom: 10px;
