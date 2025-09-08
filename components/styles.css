@@ -102,8 +102,17 @@ footer {
     align-self:flex-end;
 }
 
+.advanced-search-page .search-container input {
+    border-radius: 0;
+    padding: 12px 20px;
+}
+
+.advanced-search-page .search-icon {
+    display: none;
+}
+
 .empty-spacer {
-    height: 3vh; /* Adjust as needed */
+    height: 3.5vh; /* Adjust as needed */
     width: 450px;
     visibility: hidden;
 }
