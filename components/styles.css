@@ -89,10 +89,6 @@ footer {
     margin-top: 19vh;
 }
 
-.advanced-search-page .input-center-wrapper {
-    align-self: flex-start;
-}
-
 .advanced-search-page .logo-container {
     flex-direction: column;
 }
