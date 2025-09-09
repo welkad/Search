@@ -1,187 +1,187 @@
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
 
 header {
-    text-align: right;
-    padding: 20px;
+  text-align: right;
+  padding: 20px;
 }
-
 header a {
-    margin-right: 10px;  /* Control gap between links */
+  margin-right: 10px;
 }
 
 main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;    
-    align-items: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main.advanced-search-page {
+  align-items: flex-start;
+}
+main.advanced-search-page .content-container {
+  margin-top: 19vh;
 }
 
 footer {
-    text-align: center;
-    padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .adv-hint {
-    position: absolute;
-    right: 98%;
-    top: .75rem; /* Horizontal position */
-    font-size: 1.2rem;
-    white-space: nowrap;
+  position: absolute;
+  right: 98%;
+  top: 0.75rem;
+  font-size: 1.2rem;
+  white-space: nowrap;
 }
 
 .adv-example {
-    position: absolute;
-    left: 98%;
-    top: .75rem; /* Horizontal position */
-    font-size: 1.1rem;
-    white-space: nowrap;
+  position: absolute;
+  left: 98%;
+  top: 0.75rem;
+  font-size: 1.1rem;
+  white-space: nowrap;
 }
 
 .content-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 25vh;  /* Adjust where top of content starts */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 25vh;
 }
-
 .content-container p {
-    text-align: left;
-    font-size: 18px;
-    align-self: flex-start;
+  text-align: left;
+  font-size: 18px;
+  align-self: flex-start;
 }
 
 .input-center-wrapper {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .form-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center; /* This vertically aligns the paragraph and the input field */
-    gap: 10px; /* This adds a small gap between the text and the input field */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 
-.logo-container, .search-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
-
 .logo-container img {
-    position: static;
-    margin: 0;
-    display: block;
+  position: static;
+  margin: 0;
+  display: block;
+}
+.logo-container img:last-child {
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
-.advanced-search-page .content-container {
-    margin-top: 19vh;
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .advanced-search-page .logo-container {
-    flex-direction: column;
+  flex-direction: column;
 }
-
 .advanced-search-page .logo-container img:first-child {
-    align-self: flex-start;
-    margin-bottom: -2px;
+  align-self: flex-start;
+  margin-bottom: -2px;
 }
-
 .advanced-search-page .logo-container img:last-child {
-    align-self:flex-end;
+  align-self: flex-end;
 }
-
 .advanced-search-page .search-container input {
-    border-radius: 0;
-    padding: 10px 15px;
-    margin-bottom: 5px;
+  border-radius: 0;
+  padding: 10px 15px;
+  margin-bottom: 5px;
 }
-
 .advanced-search-page .search-icon {
-    display: none;
+  display: none;
 }
 
 .empty-spacer {
-    height: 3.5vh; /* Adjust as needed */
-    width: 450px;
-    visibility: hidden;
-}
-
-.logo-container img:last-child {
-    margin-top: -10px;
-    margin-bottom: 10px;
+  height: 3.5vh;
+  width: 450px;
+  visibility: hidden;
 }
 
 .search-container {
-    position: relative;
-    width: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .search-container input {
-    width: 100%;
-    padding: 12px 20px 12px 45px; /* Extra padding on left for search icon */
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 50px;
-    outline: none;
-    margin-bottom: 10px;
+  width: 100%;
+  padding: 12px 20px 12px 45px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 10px;
 }
-
 .search-container .search-icon {
-    position: absolute; /* Position icon based on parent container */
-    left: 15px; /* Adjust as needed */
-    top: 50%;
-    transform: translateY(-65%); /* Center the icon vertically */
-    width: 20px;
-    height: 20px;
-    opacity: 40%;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-65%);
+  width: 20px;
+  height: 20px;
+  opacity: 40%;
 }
 
 .button-row {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 10px;
 }
-
 .button-row button,
-input[type="submit"] {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 5px;
-    background: #f8f9fa;
-    outline: none;
+.button-row input[type=submit] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+  background: #f8f9fa;
+  outline: none;
 }
-
 .button-row button:hover,
-input[type="submit"]:hover {
+.button-row input[type=submit]:hover {
   outline: 1px solid #ccc;
 }
 
 #adv-search-button {
-    box-shadow: none;
-    background-color: #4d90fe;
-    border: 1px solid #3079ed;
-    color: #fff;
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+}
+#adv-search-button:hover {
+  background-color: #4787ed;
 }
 
-#adv-search-button:hover {
-    background-color: #4787ed;
-}
+/*# sourceMappingURL=styles.css.map */
